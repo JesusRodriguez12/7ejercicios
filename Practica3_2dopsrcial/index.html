@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafíos de Codificación JavaScript</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Desafíos de Codificación JavaScript</h1>
+        
+        <!-- Tarea 1: Invertir una cadena -->
+        <div class="card mt-5">
+            <div class="card-header">Tarea 1: Invertir una cadena</div>
+            <div class="card-body">
+                <input type="text" id="cadena-input" class="form-control" placeholder="Ingresa una cadena">
+                <button onclick="mostrarInvertirCadena()" class="btn btn-primary mt-2">Invertir Cadena</button>
+                <p id="invertir-cadena"></p>
+            </div>
+        </div>
+
+        <!-- Tarea 2: Número primo -->
+        <div class="card mt-3">
+            <div class="card-header">Tarea 2: Número primo</div>
+            <div class="card-body">
+                <input type="number" id="numero-input" class="form-control" placeholder="Ingresa un número">
+                <button onclick="mostrarEsPrimo()" class="btn btn-primary mt-2">Verificar Número Primo</button>
+                <p id="numero-primo"></p>
+            </div>
+        </div>
+
+        <!-- Tarea 3: Eliminar duplicados en un arreglo -->
+        <div class="card mt-3">
+            <div class="card-header">Tarea 3: Eliminar duplicados en un arreglo</div>
+            <div class="card-body">
+                <input type="text" id="arreglo-duplicados-input" class="form-control" placeholder="Ingresa un arreglo separado por comas">
+                <button onclick="mostrarEliminarDuplicados()" class="btn btn-primary mt-2">Eliminar Duplicados</button>
+                <p id="eliminar-duplicados"></p>
+            </div>
+        </div>
+
+        <!-- Tarea 4: Factorial de un número -->
+        <div class="card mt-3">
+            <div class="card-header">Tarea 4: Factorial de un número</div>
+            <div class="card-body">
+                <input type="number" id="factorial-input" class="form-control" placeholder="Ingresa un número">
+                <button onclick="mostrarFactorial()" class="btn btn-primary mt-2">Calcular Factorial</button>
+                <p id="factorial"></p>
+            </div>
+        </div>
+
+        <!-- Tarea 5: Recuento de vocales -->
+        <div class="card mt-3">
+            <div class="card-header">Tarea 5: Recuento de vocales</div>
+            <div class="card-body">
+                <input type="text" id="cadena-vocales-input" class="form-control" placeholder="Ingresa una cadena">
+                <button onclick="mostrarContarVocales()" class="btn btn-primary mt-2">Contar Vocales</button>
+                <p id="contar-vocales"></p>
+            </div>
+        </div>
+
+        <!-- Tarea 6: Suma los números en un arreglo -->
+        <div class="card mt-3">
+            <div class="card-header">Tarea 6: Suma los números en un arreglo</div>
+            <div class="card-body">
+                <input type="text" id="arreglo-suma-input" class="form-control" placeholder="Ingresa un arreglo separado por comas">
+                <button onclick="mostrarSumarNumeros()" class="btn btn-primary mt-2">Sumar Números</button>
+                <p id="sumar-numeros"></p>
+            </div>
+        </div>
+
+        <!-- Tarea 7: Encontrar el máximo en un arreglo -->
+        <div class="card mt-3">
+            <div class="card-header">Tarea 7: Encontrar el máximo en un arreglo</div>
+            <div class="card-body">
+                <input type="text" id="arreglo-maximo-input" class="form-control" placeholder="Ingresa un arreglo separado por comas">
+                <button onclick="mostrarEncontrarMaximo()" class="btn btn-primary mt-2">Encontrar Máximo</button>
+                <p id="encontrar-maximo"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./modulos/script.js"></script>
+</body>
+</html>
